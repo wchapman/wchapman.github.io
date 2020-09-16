@@ -43,10 +43,16 @@ layout: default
         {% endif %}
         
              
-        {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
+        {% if page.citation %}
+          <p>{{ page.citation }}
+        {% endif %}
+
+        {% if page.abstract %}
+          <p><b>Abstract: </b>{{page.abstract}}</p>
+        {% endif %}
+
+        {% if page.paperurl %}
+          Download <a href="{{ page.paperurl }}"><u>Here</u></a></p>
         {% endif %}
     
         </header>
@@ -64,8 +70,7 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
+      <hr>
       {% include post_pagination.html %}
     </div>
 
