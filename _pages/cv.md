@@ -15,6 +15,7 @@ Education
 ======
 * B.S. Boston University, Biomedical Engineering, 2012
 * M.S. University of Colorado Boulder, Cognitive Psychology, 2018
+  * Thesis: "A Model of Relational Reasoning Through Selective Attention". [PDF](https://www.researchgate.net/publication/328289450_A_Model_of_Relational_Reasoning_Through_Selective_Attention)
 * Ph.D Boston University, Computational Neuroscience, 2022 (expected)
 
 Work experience
@@ -33,19 +34,20 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * Python, MATLAB, R, C++, SQL
+* Data Analysis
+  * Machine Learning, Time Series Analysis, Bayesian Statistics
+* Neural Modeling
+  * Dynamical Systems, Deep Learning, Electrophysiology
 
 Publications
 ======
-  <ol>{% for post in site.publications %}
+  <ol>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ol>
   
+<!---
 Conference Talks & Publications
 ======
   <ul>{% for post in site.talks %}
@@ -54,7 +56,7 @@ Conference Talks & Publications
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
+--->
