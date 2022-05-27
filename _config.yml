@@ -11,7 +11,7 @@ title                    : "William Chapman"
 title_separator          : "-"
 name                     : &name "William Chapman"
 description              : &description "personal description"
-url                      : https://wchapman.github.io # #http://localhost:4000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://wchapman.github.io #http://127.0.0.1 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "wchapman/wchapman.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  false (default) #, "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -149,7 +149,7 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
+encoding: "UTF-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 

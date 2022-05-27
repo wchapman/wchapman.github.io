@@ -4,7 +4,7 @@ import os
 import datetime
 import re
 parser = bibtex.Parser()
-bib = parser.parse_file('./files/myPapers/myPapers.bib')
+bib = parser.parse_file('./files/myPubs/myPubs.bib')
 
 # %%
 def IEEE(e):
@@ -61,7 +61,7 @@ for key in bib.entries.keys():
         f.write('date: ' + year + '-' + month + '-' + day + '\n')
 
         # %
-        f.write('paperurl: /files/myPapers/' + bib.entries[key].fields['file'] + '\n')
+        f.write('paperurl: /files/myPubs/' + bib.entries[key].fields['file'].split(':')[1] + '\n')
 
         f.write(r"citation: '")
         f.write(IEEE(e))

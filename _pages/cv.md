@@ -16,7 +16,7 @@ Education
 * B.S. Boston University, Biomedical Engineering, 2012
 * M.S. University of Colorado Boulder, Cognitive Psychology, 2018
   * Thesis: "A Model of Relational Reasoning Through Selective Attention". [PDF](https://www.researchgate.net/publication/328289450_A_Model_of_Relational_Reasoning_Through_Selective_Attention)
-* Ph.D Boston University, Computational Neuroscience, 2022 (expected)
+* Ph.D Boston University, Computational Neuroscience, 2023 (expected)
 
 Work experience
 ======
