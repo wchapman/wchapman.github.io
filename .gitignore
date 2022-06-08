@@ -1,2 +1,12 @@
+# This one was here from the git-go. Dunno why, so not touching it
 _site/
 
+# Intermediate TeX files
+*.aux
+*.bbl
+*.blg
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
