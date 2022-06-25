@@ -7,30 +7,31 @@ redirect_from:
   - /resume
 ---
 
-Also available in a printable format <a href="https://docs.google.com/document/d/1OnGgiZtkER7g7W0SIQI-7JsdXzALrXUvEbgKMRggyuQ/" target="_blank">here</a>
+Also available in a printable format <a href="https://wchapman.github.io/files/resume/ChapmanCV.pdf" target="_blank">here</a>
 
 {% include base_path %}
 
 Education
 ======
-* B.S. Boston University, Biomedical Engineering, 2012
+* Ph.D Boston University, Computational Neuroscience, 2023 (expected)
 * M.S. University of Colorado Boulder, Cognitive Psychology, 2018
   * Thesis: "A Model of Relational Reasoning Through Selective Attention". [PDF](https://www.researchgate.net/publication/328289450_A_Model_of_Relational_Reasoning_Through_Selective_Attention)
-* Ph.D Boston University, Computational Neuroscience, 2023 (expected)
+* B.S. Boston University, Biomedical Engineering, 2012
+
 
 Work experience
 ======
 * Neural Modeler: 05/2017 - 08/2018
   * e-Cortex Inc
-  * Expanded existing models of knowledge generalization in a hybrid neural/cognitive architecture. 
+  * Extended existing computational models of working memory to create a model capable of simple symbollic processing, utilizing attentional mechanisms. Designed and ran a corresponding EEG experiment to test model predictions. Created novel causal frequency-time analyses to determine timecourse of functional connectivity.
 
 * Programmer Analyst: 05/2012 - 08/2016
   * Boston University, Center for Systems Neuroscience
-  * Served as the primary designer of internal software, used throughout the center to analyze neural recordings in novel ways. Additionally, created computational models of neural activity underlying spatial navigation, and wrote academic manuscripts.
+  * Primary statistical analysis expert for over ten peer-reviewed publications in systems and comutational neuroscience, including time-series analysis, frequentist statistics, generalized linear models, and data exploration.
 
 * Neuroimaging Research Associate: 05/2009 - 05/2012
   * Boston Medical Center
-  * Primary individual responsible for data pipelines and novel analysis of structural MRI and neuropsychological data collected from a clinical (Alzheimer's Disease) population
+  * Primary individual for data pipelines and novel analysis of structural MRI and behavioral data, leading to predictive models of clinical Alzheimer's Disease progression.
   
 Skills
 ======
