@@ -1,0 +1,217 @@
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage{natbib}
+\usepackage{bibentry}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+\nobibliography{../myPubs/myPubs.bib, ../myPosters/myPosters.bib}
+\bibliographystyle{ieeetr}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE G. William Chapman IV}} & Email: \href{mailto:}{g.william.chapman.iv@gmail.com}\\
+  \href{https://wchapman.github.io/}{website: https://wchapman.github.io/} & Mobile:~~~+1-617-383-9042 \\
+\end{tabular*}
+
+\section{Summary}
+Upcoming PhD graduate in computational neuroscience, with an additional 6 years as a software developer and scientific analyst in research-oriented settings. As a scientific analyst I have specialized in temporally-aware analysis, with a strong emphasis on interacting with subject-experts. As an independent researcher, I have focused on novel neural network architectures to support prediction of spatiotemporal data. 
+
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Boston University}{Boston, MA}
+      {Doctor of Philosophy - Computational Neuroscience}{December 2022 (expected)}
+    \resumeSubheading
+      {University of Colorado}{Boulder, CO}
+      {Master of Arts - Cognitive Psychology}{2018}
+    \resumeSubheading
+      {Boston University}{Boston, MA}
+      {Bachelor of Science - Biomedical Engineering}{2012}
+\resumeSubHeadingListEnd
+	    
+%\vspace{-5pt}
+\section{Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{Python, MATLAB, R, Bash, SQL, \LaTeX}
+	\resumeSubItem{Frameworks}{Scikit Learn, PyTorch, Pandas, Numpy, Slurm, SGE, Git}
+	\resumeSubItem{General}{Machine Learning, Time Series, Project Management, Scientific \& Data Communication, Advanced Statistical Analysis, Dynamical Systems, Biomedical Engineering}
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{Boston University}{Boston, MA}
+    {Graduate Research Fellow}{2018 - Present}
+    \resumeItemListStart
+      \resumeItem{Biological Predictive Coding}{Created a novel, biologically inspired, machine learning architecture and learning rule for predicting temporal sequences. Functions above SOTA for both short-term and long-term sequence prediction, with applications for lifelong learning, and generalization.}
+      \resumeItem{Egocentric-Allocentric Transformations}{Created a computational model which recieves self-centered sensor and motor information, fusing the information through recurrent hidden layers. Hidden layers create explicit reference-frame transformations, in addition to low-dimensional latent representations.}
+      \resumeItem{Symbolic Predictive Learning}{Created a machine-learning model which utilizes predictive coding and dynamic routing (attention) to solve a symbolic reasoning task.}
+    \resumeItemListEnd
+
+    \resumeSubheading{eCortex \& University of Colorado}{Boulder, CO}
+    {Neural Modeler}{2016 - 2018}
+    \resumeItemListStart
+      \resumeItem{Electrophysiology \& Symbolic Reasoning}{Extended existing computational models of working memory to create a model capable of simple symbollic processing, utilizing attentional mechanisms. Designed and ran a corresponding EEG experiment to test model predictions. Created novel causal frequency-time analyses to determine timecourse of functional connectivity.}
+    \resumeItemListEnd
+
+    \resumeSubheading{Center for Systems Neuroscience}{Boston, MA}
+    {Research Software Engineer}{May 2012 - August 2016}
+    \resumeItemListStart
+        \resumeItem{CMBHOME}
+        {Primary contributor for centralized MATLAB-based OOP software for standardized data storage and analysis pipelines of neural and behavioral data across multiple labs.}
+        \resumeItem{Research}{Primary statistical analysis expert for over ten peer-reviewed publications in systems and comutational neuroscience, including time-series analysis, frequentist statistics, generalized linear models, and data exploration.}
+      \resumeItemListEnd
+
+\vspace{-5pt}
+    \resumeSubheading
+		{Boston Medical Center}{Boston, MA}
+		{Neuroimaging Research Assistant}{May 2009 -  May 2012}
+		\resumeItemListStart
+        \resumeItem{Alzheimer's Disease}{Primary individual for data pipelines and novel analysis of structural MRI and behavioral data, leading to predictive models of clinical Alzheimer's Disease progression.}
+		\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\pagebreak
+\vspace{-5pt}
+\section{Publications}
+\begin{enumerate}
+    \item \bibentry{alexander_nitz_2022}
+    \item \bibentry{carstensen_hasselmo_2022}
+    \item \bibentry{hasselmo_dannenberg_2020}
+    \item \bibentry{alexander_hasselmo_2020}
+    \item \bibentry{alexander_hasselmo_2019}
+    \item \bibentry{hinman_hasselmo_2019}
+    \item \bibentry{monaghan_hasselmo_2017}
+    \item \bibentry{hinman_hasselmo_2016}
+    \item \bibentry{ferrante_hasselmo_2016}
+    \item \bibentry{tsuno_hasselmo_2015}
+    \item \bibentry{shay_hasselmo_2015}
+    \item \bibentry{raudies_hasselmo_2015a}
+    \item \bibentry{jefferson_salat_2015}
+    \item \bibentry{gifford_jefferson_2015}
+\end{enumerate}
+
+% %-----------Awards-----------------
+% \section{Honors and Awards}
+% \begin{description}[font=$\bullet$]
+% \item {Awarded title of Intel Software Innovator - May, 2019}
+% \vspace{-5pt}
+% \item {Second Runner's Up at TCS EngiNx Engineering Project Innovation Content - September, 2018 }
+% \vspace{-5pt}
+% \item {Runner's Up at Facebook Developers Circle Hackathon - August, 2017}
+
+% \end{description}
+
+\vspace{-5pt}
+\section{Professional Service}
+\begin{itemize}
+    \item \textbf{Invited reviewer}: Neural Networks (2018-present); Neural Information Processing Systems (NeurIPS) (2019-present); International Conference on Learning Representations (ICLR) (2020-present)
+    \item \textbf{Academic Planning Committee}: Graduate Student representative on a small panel of faculty responsible for overseeing and approving changes in undergraduate and graduate degree program requirements. 2018 - 2019.
+\end{itemize}
+
+\pagebreak
+\vspace{-5pt}
+\section{Conference Talks and Posters}
+\begin{enumerate}
+    \item \bibentry{poster_chapman_hasselmo_2020a}
+    \item \bibentry{poster_chapman_hasselmo_2020}
+    \item \bibentry{poster_chapman_chapman_2019}
+    \item \bibentry{poster_carstensen_hasselmo_2019}
+    \item \bibentry{poster_alexander_hasselmo_2019}
+    \item \bibentry{poster_hinman_hasselmo_2018a}
+    \item \bibentry{poster_hinman_hasselmo_2018}
+    \item \bibentry{poster_carstensen_hasselmo_2018}
+    \item \bibentry{poster_alexander_hasselmo_2018}
+    \item \bibentry{poster_hinman_hasselmo_2017}
+    \item \bibentry{poster_hinman_hasselmo_2016}
+    \item \bibentry{poster_tsuno_hasselmo_2015}
+    \item \bibentry{poster_monaghan_hasselmo_2015}
+    \item \bibentry{poster_hinman_hasselmo_2015}
+    \item \bibentry{poster_shay_hasselmo_2014}
+    \item \bibentry{poster_ferrante_hasselmo_2014}
+    \item \bibentry{poster_climer_eden_2014}
+    \item \bibentry{poster_raudies_hasselmo_2013}
+    \item \bibentry{poster_hinman_hasselmo_2013}
+    \item \bibentry{poster_gifford_jefferson_2013}
+    \item \bibentry{poster_ferrante_hasselmo_2013}
+    \item \bibentry{poster_chapman_hasselmo_2013}
+    \item \bibentry{poster_jefferson_salat_2012}
+    \item \bibentry{poster_chapman_salat_2012}
+    \item \bibentry{poster_chapman_jefferson_2010}
+    \item \bibentry{poster_badaracco_jefferson_2010}
+\end{enumerate}
+
+\end{document}
