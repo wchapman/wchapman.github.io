@@ -13,7 +13,7 @@ Also available in a printable format <a href="https://wchapman.github.io/files/r
 
 Education
 ======
-* Ph.D Boston University, Computational Neuroscience, April 2023 (expected)
+* Ph.D Boston University, Computational Neuroscience, May 2023
 * M.S. University of Colorado Boulder, Cognitive Neuroscience, 2018
   * Thesis: "A Model of Relational Reasoning Through Selective Attention". [PDF](https://www.researchgate.net/publication/328289450_A_Model_of_Relational_Reasoning_Through_Selective_Attention)
 * B.S. Boston University, Biomedical Engineering, 2012
@@ -21,7 +21,8 @@ Education
 
 Work experience
 ======
-* Graduate Research Fellow, *Boston University*, 2018 - Present
+* Postdoctoral Appointee, Neuromorphic Computing, *Sandia National Labs*, 2023 - Present
+* Graduate Research Fellow, *Boston University*, 2018 - 2023
   * **Biological Predictive Coding**: Created a novel, biologically inspired, machine learning architecture and learning rule
 for temporal prediction. Functions above state-of-the-art for both short-term and long-term sequence generation, with
 applications for lifelong learning, and generalization

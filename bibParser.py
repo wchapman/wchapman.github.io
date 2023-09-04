@@ -61,7 +61,8 @@ for key in bib.entries.keys():
         f.write('date: ' + year + '-' + month + '-' + day + '\n')
 
         # %
-        f.write('paperurl: /files/myPubs/' + bib.entries[key].fields['file'].split(':')[1] + '\n')
+        if 'file' in bib.entries[key].fields:
+            f.write('paperurl: /files/myPubs/' + bib.entries[key].fields['file'] + '\n')
 
         f.write(r"citation: '")
         f.write(IEEE(e))
@@ -69,3 +70,4 @@ for key in bib.entries.keys():
         f.write('---\n')
 
         f.close()
+# %%
