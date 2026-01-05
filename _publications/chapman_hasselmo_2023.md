@@ -1,0 +1,10 @@
+---
+title: 'Predictive Learning By A Burstdependent Learning Rule'
+collection: publications
+category: manuscripts
+Venue: 'Neurobiology of Learning and Memory'
+abstract: 'Humans and other animals are able to quickly generalize latent dynamics of spatiotemporal sequences often from a minimal number of previous experiences Additionally internal representations of external stimuli must remain stable even in the presence of sensory noise in order to be useful for informing behavior In contrast typical machine learning approaches require many thousands of samples and generalize poorly to unexperienced examples or fail completely to predict at long timescales Here we propose a novel neural network module which incorporates hierarchy and recurrent feedback terms constituting a simplified model of neocortical microcircuits This microcircuit predicts spatiotemporal trajectories at the input layer using a temporal error minimization algorithm We show that this module is able to predict with higher accuracy into the future compared to traditional models Investigating this model we find that successive predictive models learn representations which are increasingly removed from the raw sensory space namely as successive temporal derivatives of the positional information Next we introduce a spiking neural network model which implements the ratemodel through the use of a recently proposed biological learning rule utilizing dualcompartment neurons We show that this network performs well on the same tasks as the meanfield models by developing intrinsic dynamics that follow the dynamics of the external stimulus while coordinating transmission of higherorder dynamics Taken as a whole these findings suggest that hierarchical temporal abstraction of sequences rather than feedforward reconstruction may be responsible for the ability of neural systems to quickly adapt to novel situations'
+date: 2023-1-1
+paperurl: /files/myPubs/files/7177/chapman_hasselmo_2023.pdf
+citation: 'G.W. Chapman, M.E. Hasselmo. "Predictive Learning By A Burstdependent Learning Rule", <i>Neurobiology of Learning and Memory</i>, 2023.'
+---

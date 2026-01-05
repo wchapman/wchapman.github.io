@@ -1,14 +1,14 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "William Chapman",
+    "email": "g.william.chapman.iv@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "wchapmaniv.com",
+    "summary": "Computational Neuroscience, Neuromorphic Computing, and AI/ML",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Albuquerque, NM",
       "countryCode": "US",
       "region": ""
     },
